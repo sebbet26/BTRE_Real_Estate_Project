@@ -23,11 +23,11 @@ def login(request):
 def logout(request):
     if request.method == "POST":
         auth.logout(request)
-        messages.success("You are now logged out")
+        messages.success(request, "You are now logged out")
         return redirect("index")
-    else:
-        messages.error(request, "You have to login first!")
-        return redirect("index")
+    #else:
+        #messages.error(request, "You have to login first!")
+        #return redirect("index")
 
 def register(request):
     if request.method == "POST":

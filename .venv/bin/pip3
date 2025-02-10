@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/Users/stopnowbastian/Downloads/BergenTech 24-25-PERIOD-3-WEBDEV-CLASSWORK main Unit3_BTRE (2)/.venv/bin/python3.12" "$0" "$@"
+'''exec' "/Users/stopnowbastian/Desktop/Period 3 - WebDev/24-25-p3-webdev-assignments-sebbet26/bt-real-estate-django-project-sebbet26/BTRE_Real_Estate_Project/.venv/bin/python3.12" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re
